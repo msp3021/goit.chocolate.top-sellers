@@ -16,6 +16,107 @@ integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkc
 <title>Document</title>
   </head>
   <body>
-    
+    <main>
+        <section class="top-sellers">
+            <div class="container">
+                <h2 class="top-sellers-title"><span class="top-sellers-title-top">TOP</span>SELLERS</h2>
+                <ul class="list top-sellers-images">
+                    <li>
+                      <img class="top-sellers-img"
+                      src="./images/top-sellers1.jpg"
+                      alt="pieces of chocolate,loose coffee beans and haelnut"
+                      width="368"
+                      height="464"
+                        /></li>
+                        <li class="top-sellers-text-mobile">
+                            <p>Crazy enough chocolate orginates from a bean just like the 
+                               coffee bean called Cacao. Cacao has been around for 
+                               thousands of years and was first discovered by the Native 
+                               American tribe called the Mayans.
+                           </p>
+                       </li>
+                    <li>
+                        <img class="top-sellers-img"
+                        src="./images/top-sellers2.jpg"
+                        alt="pieces of fruit and nuts chocolate"
+                        width="368"
+                        height="464"
+                        /></li>
+                       
+                    <li>
+                        <img class="top-sellers-img-last"
+                        src="./images/top-sellers3.jpg"
+                        alt="pieces of chocolate, finger chocolate and round chocolate ball 
+                        stuck on top of eachother"
+                        width="368"
+                        height="464"
+                        />
+                    </li>
+                </ul>
+                <div class="top-sellers-description-button">
+                <p class="top-sellers-text-desktop">Crazy enough chocolate orginates from a bean just like the 
+                    coffee bean called Cacao. Cacao has been around for 
+                    thousands of years and was first discovered by the Native 
+                    American tribe called the Mayans.
+                </p>
+                <div class="top-sellers-button">
+                <button class="top-sellers-button-description" type="button" data-modal-open="">Buy now</button>
+            </div>
+            </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <div class="modal is-hidden" data-modal>
+            <div class="top-sellers-modal-window">
+                <button type="button" class="top-sellers-button-close" data-modal-close>
+                    <svg class="top-sellers-features" width="24" height="24"><use href="./images/icons.svg#icon-close-black-18dp-2-1-4"></use></svg>
+                </button>
+<h2 class="top-sellers-modal-title"><span class="top-sellers-modal-title-part">BUY</span>NOW</h2>
+         
+            <form>   
+            <div class="">
+              <img
+              src="./">  
+            
+            </div>
+                <div class="top-sellers-modal-box">
+                    <label class="top-seller-modal-description" for="user-name">Personal information</label>
+                   <input class="top-sellers-modal-input" placeholder="Name"/>
+                   <input class="top-sellers-modal-input" placeholder="Surname"/>
+                </div>
+                <div class="top-sellers-modal-box">
+                   <label class="top-seller-modal-description" for="e-mail">Email</label>
+                   <input  class="top-sellers-modal-input" placeholder="Enter your email"/>
+                </div>
+                <div class="top-sellers-modal-box">
+                   <label class="top-seller-modal-description" for="phone-number"> Phone number</label>
+                   <input class="top-sellers-modal-input" placeholder="Phone number"/>
+                </div>
+                <div class="top-sellers-modal-box">
+                   <label class="top-seller-modal-description" for="card-number">Card-number</label>
+                   <input class="top-sellers-modal-input" placeholder="Enter card"/>
+                </div>
+                <div class="top-sellers-modal-box">
+                   <label class="top-seller-modal-description" for="comment">Comment</label>
+                   <textarea class="top-sellers-modal-input" id="user-comment" name="user-comment" placeholder="Enter text"></textarea>
+                </div>
+                   <button type="button">Submit</button>
+
+                
+              
+            </form>
+            </div>
+          
+        </div>
+    </main>
+
+    <script src="./js/modal.js"></script>
   </body>
   </html>
